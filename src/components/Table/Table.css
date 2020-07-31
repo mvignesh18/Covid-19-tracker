@@ -1,0 +1,14 @@
+.table {
+  height: 400px;
+  overflow-y: auto;
+  border: 1px solid;
+  margin-top: 1em;
+}
+.table__row {
+  display: flex;
+  justify-content: space-between;
+  padding: 0.5em;
+}
+.table__row:nth-of-type(odd) {
+  background: slategray;
+}

@@ -1,0 +1,8 @@
+.app__header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.app__dropdown {
+  background-color: #fff;
+}

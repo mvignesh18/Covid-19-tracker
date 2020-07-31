@@ -1,0 +1,42 @@
+.layout__content {
+  display: flex;
+  justify-content: space-between;
+}
+.layout__left {
+  flex: 0.9;
+}
+.layout__liveCases {
+  font-size: 1.3em;
+  font-weight: bold;
+}
+.layout__countriesCardContent {
+  flex: 1;
+  display: flex;
+}
+.layout__countriesCardContent > div {
+  flex: 1;
+}
+.layout__graph {
+  flex: 1;
+}
+.layout__right {
+  background-color: #111 !important;
+  color: #fff !important;
+  display: flex;
+  flex-direction: column;
+}
+.layout__infoBoxContainer {
+  display: flex;
+  justify-content: space-between;
+}
+
+@media (max-width: 975px) {
+  .layout__content {
+    flex-direction: column;
+  }
+}
+/* @media (max-width: 420px) {
+  .layout__infoBoxContainer {
+    flex-direction: column;
+  }
+} */

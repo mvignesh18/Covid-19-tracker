@@ -1,0 +1,51 @@
+.infobox {
+  display: flex;
+  background-color: #f3f3f3;
+  color: #000;
+  margin-right: 10px;
+  cursor: pointer;
+}
+.infoBox__cardContent {
+  display: flex;
+  align-items: center;
+}
+.infobox--selected {
+  border-right: 10px solid greenyellow;
+}
+.infoBox__cases--green {
+  color: darkgreen !important;
+}
+.infobox--red {
+  border-color: red;
+}
+/* .MuiCardContent-root {
+  display: flex;
+  align-items: center;
+} */
+/* .MuiCardContent-root:last-child {
+  padding-bottom: 16px;
+} */
+.infoBox__counts {
+  padding: 0 20px;
+}
+.infoBox__cases {
+  /* padding-bottom: 10px; */
+  border-bottom: 1px solid #000;
+  color: #cc1034;
+  font-weight: 600;
+  font-size: 1.3em !important;
+  font-weight: bold !important;
+}
+.infoBox__total {
+  color: #6c757d;
+  font-weight: 600;
+}
+
+@media (max-width: 675px) {
+  .infoBox__cardContent {
+    flex-direction: column;
+  }
+  .infoBox__counts {
+    padding: 0;
+  }
+}
